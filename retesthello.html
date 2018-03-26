@@ -1,0 +1,25 @@
+<html>
+<body>
+ 
+ 
+<?php
+$servername = "localhost";
+$username = "TripBro";
+$password = "Inspiron@123";
+$dbname = "TripBro";
+$Name=$_POST['buyer_name'];
+$Ph_Number=$_POST['buyer_phone'];
+$Email=$_POST['buyer'];
+$Transaction_ID=$_POST['payment_id'];
+$Package=$_POST['purpose'];
+$Status=$_POST['status'];
+$Amount=$_POST['Amount'];
+$mobileNo=$_POST['buyer_phone'];
+$authKey = "127991AZ3Ojm9ckZo57fd0c8b";
+$senderId = "TRPBRO";
+$route = "4";
+$message='Your '.$Package.' of Amount Rs '.$Amount.' has been booked successfully. Our Customer Care Executive will get in touch with you shortly.';
+echo $message;
+?>
+</body>
+</html>

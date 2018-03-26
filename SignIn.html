@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	TripBro - Designed and Developed by Pramod, Gurnoora and Shiva.
+-->
+<html>
+	<head>
+		<title>Secure Payment Gateway - Powered by CCAvenue</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="google-signin-client_id" content="51020129885-v5i1rcfhdu2g4rp5ccflglf8rs5dg231.apps.googleusercontent.com">
+		<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:700italic,400,300,700' rel='stylesheet' type='text/css'>
+		<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-panels.min.js"></script>
+		<script src="js/init.js"></script>
+		<script src="https://apis.google.com/js/platform.js" async defer></script>
+							
+		<noscript>
+			<link rel="stylesheet" href="css/skel-noscript.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-desktop.css" />
+		</noscript>
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+	</head>
+	<style type="text/css">
+		.button { transition: all .2s ease-in-out; }
+.button:hover { transform: scale(1.1); }
+	li a:hover{
+				background: #e95d3c;
+				border-radius: 5px;
+				color: #7fcbae;
+	
+	}
+	
+	</style>
+	<body class="right-sidebar">
+
+	<!-- Header -->
+		<div id="header">
+			<div class="container">
+					
+				<!-- Logo -->
+					<div id="logo">
+						<h1><a href="#">TripBro</a></h1>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="">Packages</a></li>
+							<li><a href="">Login/Sign Up</a></li>
+							<li><a href="">Contact Us</a></li>
+						</ul>
+					</nav>
+
+			</div>
+		</div>
+	<!-- Header -->
+		
+	<!-- Banner -->
+		<div id="banner">
+			<div class="container">
+			</div>
+		</div>
+	<!-- /Banner -->
+
+	<!-- Main -->
+		<div id="page">
+				
+			<!-- Main -->
+			<div id="main" class="container">
+				<div class="row">
+					<div class="9u">
+						<section>
+							<header>
+								<h2>Sign In </h2>
+								<span class="byline">Sign in with Google Plus or Create a Free Account</span>
+								
+							</header>
+							
+							<div class="g-signin2" data-onsuccess="onSignIn"></div>
+							function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+
+						</section>
+					</div>
+					
+					
+
+				</div>
+			</div>
+			<!-- Main -->
+
+		</div>
+	<!-- /Main -->
+
+
+
+<!-- Footer -->
+		<div id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="3u">
+						<section>
+							<h2><br>Recent Reviews</h2>
+							<div class="balloon">
+								<blockquote>It was fun travelling with TripBro. Everything was well arranged and planned. Total hassle free experience. And the Customer Support team is always in touch through out the journey. Will love to travel again with TripBro.<br>
+									<br>
+									<strong>&ndash;&nbsp;&nbsp;Adit Aggarwal</strong></blockquote>
+							</div>
+							<div class="ballon-bgbtm">&nbsp;</div>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<h2><br>Travel Articles</h2>
+							<ul class="default">
+								<li>
+									<h3>The Best Snowy Destinations in India</h3>
+									<p><a href="#">For all true snow lovers. </a></p>
+								</li>
+								<li>
+									<h3>The Unexplored beauty of Masynram and Cherrapunji</h3>
+									<p><a href="#">Although many of us don't like Rain. But you can experience the true serenity of natureonly when you visit this place.</a></p>
+								</li>
+								<li>
+									<h3>Is it safe to travel solo for a Girl in India?</h3>
+									<p><a href="#">I've written this article focussing on all my experiences as a solo traveller.</a></p>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<h2><br>Image Gallery</h2>
+							<p>Have a look at what our Clients have uploaded. And you'll find a reason to travel with us. Why sit back home when you have so much to explore?</p>
+							<ul class="style5">
+								<li><a href="#"><img src="images/pics07.jpg" alt=""></a></li>
+								<li><a href="#"><img src="images/pics08.jpg" alt=""></a></li>
+								<li><a href="#"><img src="images/pics09.jpg" alt=""></a></li>
+								<li><a href="#"><img src="images/pics10.jpg" alt=""></a></li>
+								<li><a href="#"><img src="images/pics11.jpg" alt=""></a></li>
+								<li><a href="#"><img src="images/pics12.jpg" alt=""></a></li>
+							</ul>
+							<a href="#" class="button">VIEW ALL</a>
+						</section>
+					</div>
+					<div class="3u">
+						<section>
+							<h2><br>FAQs</h2>
+							<p><strong>Q) Which is the Best Season to Visit Gangtok? </strong></p>
+							<p>Well it depends on your choice, You will experience snow fall if you come in the month of December to January. And if you are scared of low temperatures you can come here in May-June and experience the beautiful face of Nature.</p>
+							<p>But Personally,I'll recommend you to visit in December-January Session.</p>
+							<a href="#" class="button">Ask Your Question</a>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- /Footer -->
+
+	<!-- Copyright -->
+		<div id="copyright" class="container">
+			All Rights Reserved by TripBro ® 
+		</div>
+
+
+	</body>
+</html>
